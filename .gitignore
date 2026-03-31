@@ -1,0 +1,37 @@
+# 정답 코드 (배포 제외)
+solution_answer/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Airflow (로컬 런타임)
+airflow_home/airflow.db
+airflow_home/webserver_config.py
+airflow_home/logs/
+
+# 과제 원본 문서 (배포 불필요)
+airflow_hw_spec.md
+airflow_hw_clean.docx
+
+# Data (런타임 생성물 - .gitkeep만 추적)
+data/prices/*.csv
+data/quarantine/*.csv
+data/alerts/*.txt
+data/stock.db
+
+# PDF 생성 스크립트 (배포 불필요)
+generate_pdf.py
+
+# IDE
+.vscode/
+.idea/
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+airflow-logs/
